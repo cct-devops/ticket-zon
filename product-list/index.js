@@ -2,10 +2,6 @@ const fastify = require('fastify')({
   logger: true
 })
 
-fastify.get('/', async (request, reply) => {
-  return { hello: 'world' }
-})
-
 fastify.get('/products', async(request, reply) => {
   const searchTerm = request.query['search']
   const products = require('./products.json')
