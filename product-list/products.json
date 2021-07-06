@@ -1,0 +1,17 @@
+[
+  {
+   "name": "BBQ Cover",
+   "price": 11,
+   "img_url": "https://images-eu.ssl-images-amazon.com/images/I/919ZCPcgipL.__AC_SX300_SY300_QL70_ML2_.jpg"
+  },
+  {
+    "name": "Swimming pool",
+    "price": 100,
+    "img_url": "https://images-eu.ssl-images-amazon.com/images/I/61JHFyt90hL.__AC_SX300_SY300_QL70_ML2_.jpg"
+  },
+  {
+    "name": "Suncream",
+    "price": 5,
+    "img_url": "https://images-na.ssl-images-amazon.com/images/I/71VExbL6BYL._AC_SL1500_.jpg"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "product-list",
+  "version": "1.0.0",
+  "description": "A product catalog",
+  "main": "index.js",
+  "author": "David Gonzalez",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.18.1"
+  }
+}
