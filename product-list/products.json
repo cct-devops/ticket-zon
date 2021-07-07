@@ -13,10 +13,5 @@
     "name": "Suncream",
     "price": 5,
     "img_url": "https://images-na.ssl-images-amazon.com/images/I/71VExbL6BYL._AC_SL1500_.jpg"
-  },
-  {
-    "name": "bananas",
-    "price": 5,
-    "img_url": "https://images-na.ssl-images-amazon.com/images/I/71VExbL6BYL._AC_SL1500_.jpg"
   }
 ]
