@@ -28,5 +28,14 @@ def jwt_issuer():
             
     return {'status': 'Unauthorized'}, 401
 
+@app.route("/jwt-verify")
+def jwt_verify():
+    token = request.args.get('token')
+    try:
+        return jwt.decode(token, "my-super-super-secret", algorithms=["HS256"])
+    except:
+        return {'status': 'Unauthorized'}, 401
+    
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0')

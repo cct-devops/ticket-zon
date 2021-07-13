@@ -6,7 +6,9 @@
   "author": "David Gonzalez",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^3.18.1"
+    "axios": "^0.21.1",
+    "fastify": "^3.18.1",
+    "jsonwebtoken": "^8.5.1"
   },
   "scripts": {
     "test": "mocha"
