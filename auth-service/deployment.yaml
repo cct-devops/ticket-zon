@@ -5,7 +5,7 @@ metadata:
   labels:
     app: auth-service
 spec:
-  replicas: 11
+  replicas: 3
   selector:
     matchLabels:
       app: auth-service
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: auth-service
-        image: auth-service:latest
+        image: panchop/cct-ticketzone-auth:latest
         env:
           - name: JWT_SECRET
             valueFrom:

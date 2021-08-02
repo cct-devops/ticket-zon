@@ -11,7 +11,8 @@
     "jsonwebtoken": "^8.5.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "devDependencies": {
     "chai": "^4.3.4",

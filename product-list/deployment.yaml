@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-list-deployment
+  labels:
+    app: product-list
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: product-list
+  template:
+    metadata:
+      labels:
+        app: product-list
+    spec:
+      containers:
+      - name: product-list
+        image: panchop/cct-ticketzone-products
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 3000

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: product-list
+spec:
+  type: LoadBalancer
+  selector:
+    app: product-list
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
