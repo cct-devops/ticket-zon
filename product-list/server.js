@@ -16,7 +16,7 @@ module.exports = (opts) => {
     // TODO: Check timestamp
     console.log('token was not found')
     try{
-      await axios.get(`http://localhost:5000/jwt-verify?token=${token}`)
+      await axios.get(`http://auth-service/jwt-verify?token=${token}`)
       validTokens[token] = 1
     } catch(e) {
       console.log(e)
